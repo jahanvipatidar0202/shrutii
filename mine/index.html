@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./jquery.flipster.min.css">
+</head>
+<body>
+    <div class="hero">
+         <div class="carousel">
+             <ul>
+                <li><img src="./img1.JPG" alt=""></li>
+                <li><img src="./img2.JPG" alt=""></li>
+                <li><img src="./img3.JPG" alt=""></li>
+                <li><img src="./img4.JPG" alt=""></li>
+                <li><img src="./img5.JPG" alt=""></li>
+                <li><img src="./img6.JPG" alt=""></li>
+                <li><img src="./img7.JPG" alt=""></li>
+                <li><img src="./img8.JPG" alt=""></li>
+                <li><img src="./img9.JPG" alt=""></li>
+                <li><img src="./img10.JPG" alt=""></li>
+             </ul>
+         </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+             style:'carousel',
+             spacing : -0.3
+        });
+    </script>
+</body>
+</html>
